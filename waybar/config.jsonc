@@ -10,7 +10,8 @@
     "niri/workspaces",
     "custom/separator",
     "tray",
-    "custom/separator2"
+    "custom/separator2",
+    "niri/window"
   ],
   "modules-center": ["custom/separator", "custom/clock", "custom/separator2"],
   "modules-right": [
@@ -30,6 +31,9 @@
     "cpu",
     "custom/separator2"
   ],
+"niri/window": {
+	    "format": "<span color='#82AAFF'>   {title}</span>" 
+    },
  "niri/workspaces": {
     "disable-scroll": true,
     "all-outputs": true,
