@@ -7,7 +7,7 @@
   "height": 0,
   "margin-bottom": 0,
   "modules-left": [
-    "hyprland/workspaces",
+    "niri/workspaces",
     "custom/separator",
     "tray",
     "custom/separator2"
@@ -30,7 +30,7 @@
     "cpu",
     "custom/separator2"
   ],
-  "hyprland/workspaces": {
+ "niri/workspaces": {
     "disable-scroll": true,
     "all-outputs": true,
     "cursor": true,
@@ -49,15 +49,15 @@
     }
 },
 "custom/separator": {
-    "format": "[", 
+    "format": "[",
     "tooltip": false
 },
 "custom/separator2": {
-    "format": "]", 
+    "format": "]",
     "tooltip": false
 },
 "custom/separator3": {
-    "format": "󰿟", 
+    "format": "󰿟",
     "tooltip": false
 },
 "custom/separator4": {
@@ -118,7 +118,7 @@
     "tooltip": false,
     "on-click-right": ""
 },
-  "network": {
+"network": {
     "format-icons": [
       "󰤯",
       "󰤟",
@@ -208,5 +208,5 @@
     "icon-size": 14,
     "spacing": 4
   },
-  
+
 }
