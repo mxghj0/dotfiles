@@ -142,10 +142,10 @@
     "on-click": ""
   },
   "battery": {
-    "format": "bat {capacity}%",
-    "format-discharging": "bat {capacity}%",
-    "format-charging": "bat {capacity}% ",
-    "format-plugged": "bat_p {capacity}%",
+    "format": "bat {capacity}%; {health}%",
+    "format-discharging": "bat {capacity}%; {health}%",
+    "format-charging": "bat {capacity}% ; {health}%",
+    "format-plugged": "bat_p {capacity}%; {health}%",
     "format-icons": {
       "charging": [
         "󰢜",
@@ -172,7 +172,7 @@
         "󰁹"
       ]
     },
-    "format-full": "bat_f {capacity}%",
+    "format-full": "bat_f {capacity}%; {health}%",
     "tooltip-format-discharging": "{timeTo}",
     "tooltip-format-charging": "{timeTo}",
     "interval": 5,
